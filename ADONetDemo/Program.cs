@@ -6,11 +6,11 @@ namespace ADONetDemo
 {
     class Program
     {
-        //For SQL Server Authentication
-        //static string connection = "Server=192.168.84.83;Database=AdoNetDemo; Encrypt=true; TrustServerCertificate=true; Integrated Security=true";
-
         //For Window Authentication
-        static string connection = "Server=192.168.1.3;Database=AdoNetDemo; User Id=sa; Password=Docker123;TrustServerCertificate=true;";
+        static string connection = "Server=192.168.84.83;Database=AdoNetDemo; Encrypt=true; TrustServerCertificate=true; Integrated Security=true";
+
+        //For SQL Server Authentication
+        //static string connection = "Server=192.168.1.3;Database=AdoNetDemo; User Id=sa; Password=Docker123;TrustServerCertificate=true;";
 
         static void Main(string[] args)
         {
